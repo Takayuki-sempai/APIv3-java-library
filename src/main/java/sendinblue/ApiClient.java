@@ -51,11 +51,11 @@ import sendinblue.auth.OAuth;
 
 public class ApiClient {
 
-    private String basePath = "https://api.sendinblue.com/v3";
+    private String basePath = "https://api.brevo.com/v3";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;
-    private String defaultUserAgent = "sendinblue_clientAPI/v7.0.0/java";
+    private String defaultUserAgent = "sendinblue_clientAPI/v8.0.0/java";
 
     private Map<String, Authentication> authentications;
 
